@@ -178,6 +178,20 @@
         scroll-behavior: smooth;
     }
 
+    .h1gradient {
+        color: #111;
+        font-family: 'Helvetica Neue', sans-serif;
+        /* font-size: 275px; */
+        font-weight: bold;
+        letter-spacing: -1px;
+        line-height: 1;
+        text-align: center;
+        font-size: 172px;
+        background: linear-gradient(to right, #30CFD0 0%, #330867 80%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
     .linecolorh2 {
         background-image: linear-gradient(to right, whitesmoke, #008000);
         width: 40%;
@@ -194,6 +208,36 @@
 
     .linehr {
         border-width: 4px;
+
+    }
+    .cardleftdown{
+        /* margin-top: 100px; */
+    }
+
+    .borderleft {
+        border-left: 5px solid #30CFD0;
+        height: 2px;
+
+    }
+    .borderright {
+        border-left: 5px solid #330867;
+        height: 2px;
+
+    }
+
+    .linehrcenter {
+        border-width: 2px;
+    }
+
+    .linecolorhr_about {
+        background-image: linear-gradient(to right, #273443 60%, whitesmoke);
+        width: 10%;
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .linehr_about {
+        border-width: 2px;
 
     }
 
@@ -217,14 +261,14 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#!">Home <span class="sr-only">(current)</span></a>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#!">Testimonials</a>
                         </li>
-                        <li class="nav-item mr-4 ">
-                            <a class="nav-link" href="#!">About Us</a>
+                        <li class="nav-item mr-4 active">
+                            <a class="nav-link" href="/about">About Us</a>
                         </li>
                     </ul>
                     <span class="navbar-text">
@@ -291,21 +335,7 @@
     </div> -->
         <!-- </section> -->
         <br />
-        <div class="container">
 
-            <div class="row pt-4">
-                <!-- <div class="col-lg-6  align-self-center ">
-         
-
-            I just want to share an exploration of the landing page online Accountancy Services. my idea is to make a more simple and clean style.
-            I just want to share an exploration of the landing page online Accountancy Services. my idea is to make a more simple and clean style.
-        </div> -->
-
-                <div class="col-lg">
-                    <img src="https://www.bizlibrary.com/wp-content/uploads/2020/06/22145936/diverse-team-collaborating-at-work.jpg" style="width: 100%; max-width:100vw;max-height:unset;" alt="">
-                </div>
-            </div>
-        </div>
 
         <main class="py-4">
             @yield('content')

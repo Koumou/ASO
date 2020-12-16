@@ -2,20 +2,35 @@
 
 @section('content')
 <div class="container">
+    <div class="container">
+        <div class="row ">
+            <!-- <div class="col-lg-6  align-self-center ">
+
+
+I just want to share an exploration of the landing page online Accountancy Services. my idea is to make a more simple and clean style.
+I just want to share an exploration of the landing page online Accountancy Services. my idea is to make a more simple and clean style.
+</div> -->
+
+            <div class="col-lg">
+                <img src="https://www.bizlibrary.com/wp-content/uploads/2020/06/22145936/diverse-team-collaborating-at-work.jpg" style="width: 100%; max-width:100vw;max-height:unset;" alt="">
+            </div>
+        </div>
+    </div>
     <br />
     <center>
-    <div>
-        <i class="fas fa-globe-africa col d-flex justify-content-center pb-3" style="font-size:38px;color:#236E96;"></i>
-    </div>
-    <div class="col justify-content-center">
-        <h3 class="text-center"><b>I just want to share an exploration of the landing page online Accountancy Services</b></h3>
-    <!-- </div>
+        <div>
+            <i class="fas fa-globe-africa col d-flex justify-content-center pb-3" style="font-size:38px;color:#236E96;"></i>
+        </div>
+        <div class="col justify-content-center">
+            <h3 class="text-center"><b>I just want to share an exploration of the landing page online Accountancy Services</b></h3>
+            <!-- </div>
     <div class="col d-flex justify-content-center mx-4 px-4 text-center"> -->
-        <p class="text-center">
-            I just want to share an exploration of the landing page online Accountancy Services. my idea is to make a more simple and clean style. I just want to share an exploration of the landing page online Accountancy Services. my idea is to make a more simple and clean style.
-        </p>
-        
-    </div></center>
+            <p class="text-center">
+                I just want to share an exploration of the landing page online Accountancy Services. my idea is to make a more simple and clean style. I just want to share an exploration of the landing page online Accountancy Services. my idea is to make a more simple and clean style.
+            </p>
+
+        </div>
+    </center>
 
     <br />
     <ul class="nav justify-content-center pb-4">
@@ -39,7 +54,7 @@
         <img src="https://images.assetsdelivery.com/compings_v2/thevisualsyouneed/thevisualsyouneed1810/thevisualsyouneed181000293.jpg" style="width: 100%; max-width:100vw;max-height:unset;" alt="...">
     </div>
     <div class="col-lg  align-self-center">
-    <h3 class="pt-3">Input</h3>
+        <h3 class="pt-3">Input</h3>
         <div class="linecolorh1">
             <hr class="linehr">
         </div>
@@ -106,7 +121,7 @@
     </div>
     <div class="col-lg  align-self-center ">
         <!-- <h1 class="textformat gradient-text">Card title</h1> -->
-        <h3 class="pt-3" >Output</h3>
+        <h3 class="pt-3">Output</h3>
         <div class="linecolorh2 ">
             <hr class="linehr">
         </div>

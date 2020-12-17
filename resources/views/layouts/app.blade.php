@@ -210,7 +210,8 @@
         border-width: 4px;
 
     }
-    .cardleftdown{
+
+    .cardleftdown {
         /* margin-top: 100px; */
     }
 
@@ -219,6 +220,7 @@
         height: 2px;
 
     }
+
     .borderright {
         border-left: 5px solid #330867;
         height: 2px;
@@ -249,6 +251,19 @@
         font-size: 1rem;
         font-family: 'Source Sans Pro', sans-serif;
     }
+
+    .borderradius1 {
+        /* border-radius: 50%; */
+        /* margin: -20px -20px 20px -20px; */
+        border-radius: 160px 160px 0px 160px;
+
+    }
+    .borderradius2 {
+        /* border-radius: 50%; */
+        /* margin: -20px -20px 20px -20px; */
+        border-radius: 0px 160px 160px 160px;
+
+    }
 </style>
 
 <body>
@@ -265,14 +280,14 @@
                             <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#!">Testimonials</a>
+                            <a class="nav-link" href="/testiminial">Testimonials</a>
                         </li>
                         <li class="nav-item mr-4 active">
                             <a class="nav-link" href="/about">About Us</a>
                         </li>
                     </ul>
                     <span class="navbar-text">
-                        <a class="btn btn-info text-light" href="#" role="button">Contact Us</a>
+                        <a class="btn btn-info text-light" href="/contact" role="button">Contact Us</a>
                     </span>
                 </div>
             </div>

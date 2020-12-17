@@ -23,3 +23,11 @@ Route::get('/home', function () {
 Route::get('/about', function () {
     return view('aso.about');
 });
+Route::get('/testiminial', function () {
+    return view('aso.testiminial');
+});
+Route::get('/contact', function () {
+    return view('aso.contact');
+});
+
+

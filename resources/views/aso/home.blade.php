@@ -44,14 +44,14 @@ I just want to share an exploration of the landing page online Accountancy Servi
             <a class="nav-link" style="font-size:large; color:#23375b;"> <i class="fas fa fa-calculator pr-1" style="font-size:22px;color:#0091A0; vertical-align:baseline;"></i><b><u>Accounting</u></b></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" style="font-size:large; color:#23375b;"> <i class="fas fa-pencil-alt pr-1" style="font-size:22px;color:#FF7682; vertical-align:baseline;"></i><b><u>Adjust</u></b></a>
+            <a class="nav-link" style="font-size:large; color:#23375b;"> <i class="fas fa-pen-fancy pr-1" style="font-size:22px;color:#FF7682; vertical-align:baseline;"></i><b><u>Adjust</u></b></a>
         </li>
     </ul>
     <br />
     <br />
     <div class="row pb-3" ">
         <div class=" col-lg">
-        <img src="https://images.assetsdelivery.com/compings_v2/thevisualsyouneed/thevisualsyouneed1810/thevisualsyouneed181000293.jpg" style="width: 100%; max-width:100vw;max-height:unset;" alt="...">
+        <img src="https://images.assetsdelivery.com/compings_v2/thevisualsyouneed/thevisualsyouneed1810/thevisualsyouneed181000293.jpg" class="borderradius1" style="width: 100%; max-width:100vw;max-height:unset;" alt="...">
     </div>
     <div class="col-lg  align-self-center">
         <h3 class="pt-3">Input</h3>
@@ -69,7 +69,7 @@ I just want to share an exploration of the landing page online Accountancy Servi
 <br />
 
 
-<div class="row pt-4" style="background-color: #002760; color:whitesmoke; border-radius: 15px 15px 15px 15px;">
+<div class="row pt-4" style="background-color: #002760; color:whitesmoke; border-radius: 15px 1px 15px 1px;">
     <div class="col-lg-6">
         <div class="pl-3">
             <span class="badge badge-primary" style="background-color: #8134AF;">Proposals</span>
@@ -117,7 +117,7 @@ I just want to share an exploration of the landing page online Accountancy Servi
 <br />
 <div class="row pt-3 flex-row-reverse">
     <div class=" col-lg ">
-        <img src="https://thumbs.dreamstime.com/b/%E5%B9%B4%E8%BD%BB%E6%84%89%E5%BF%AB%E5%92%8C%E5%8F%AF%E7%88%B1%E7%9A%84%E8%A1%8C%E5%AE%B6%E9%BB%91%E8%89%B2%E7%BE%8E%E5%9B%BD%E9%BB%91%E4%BA%BA%E7%9A%84%E5%A6%87%E5%A5%B3%E9%A5%AE%E7%94%A8%E7%9A%84%E8%8C%B6%E6%88%96%E5%92%96%E5%95%A1%E5%9C%A8%E5%AE%B6%E5%8A%9E%E5%85%AC%E5%AE%A4%E5%B7%A5%E4%BD%9C%E5%BF%AB%E4%B9%90%E4%B8%8E%E8%86%9D%E4%B8%8A%E5%9E%8B%E8%AE%A1%E7%AE%97%E6%9C%BAco-118136289.jpg" style="width: 100%; max-width:100vw;max-height:unset;" alt="...">
+        <img src="https://thumbs.dreamstime.com/b/%E5%B9%B4%E8%BD%BB%E6%84%89%E5%BF%AB%E5%92%8C%E5%8F%AF%E7%88%B1%E7%9A%84%E8%A1%8C%E5%AE%B6%E9%BB%91%E8%89%B2%E7%BE%8E%E5%9B%BD%E9%BB%91%E4%BA%BA%E7%9A%84%E5%A6%87%E5%A5%B3%E9%A5%AE%E7%94%A8%E7%9A%84%E8%8C%B6%E6%88%96%E5%92%96%E5%95%A1%E5%9C%A8%E5%AE%B6%E5%8A%9E%E5%85%AC%E5%AE%A4%E5%B7%A5%E4%BD%9C%E5%BF%AB%E4%B9%90%E4%B8%8E%E8%86%9D%E4%B8%8A%E5%9E%8B%E8%AE%A1%E7%AE%97%E6%9C%BAco-118136289.jpg" class="borderradius2" style="width: 100%; max-width:100vw;max-height:unset;" alt="...">
     </div>
     <div class="col-lg  align-self-center ">
         <!-- <h1 class="textformat gradient-text">Card title</h1> -->
@@ -128,6 +128,47 @@ I just want to share an exploration of the landing page online Accountancy Servi
 
         I just want to share an exploration of the landing page online Accountancy Services. my idea is to make a more simple and clean style.
         I just want to share an exploration of the landing page online Accountancy Services. my idea is to make a more simple and clean style.
+    </div>
+</div>
+<br />
+<div class="row pt-4">
+    <div class="col-lg-3">
+        <div class="card border-0 bg-transparent">
+            <p class="pt-3"><small>Benefits</small></p>
+            <h3><b>Why you should choose ASO</b></h3>
+            <!-- <div class="card-body">
+                I just want to share an exploration of the landing page online Accountancy Services. my idea is to make a more simple and clean style.
+                I just want to share an exploration of the landing page online Accountancy Services. my idea is to make a more simple and clean style.
+                I just want to share an exploration of the landing page online Accountancy Services. my idea is to make a more simple and clean style. </div> -->
+        </div>
+    </div>
+    <div class="col-lg-1">
+
+    </div>
+    <div class="col-lg-4">
+        <div class="card border-0 bg-transparent">
+            <h5 class=""><b><i class="fas fa-balance-scale-left pr-2 " style="font-size:22px;color:#ffae00; vertical-align:baseline;"></i>Balance Scale</b></h5>
+            <div class="card-body pl-4 pt-0">
+                I just want to share an exploration of the landing page online Accountancy Services. my idea is to make a more simple and clean style.
+            </div>
+        </div>
+        <div class="card border-0 bg-transparent">
+            <h5 class=""><b><i class="	fas fa-calendar-check pr-2 " style="font-size:22px;color:#ffae00; vertical-align:baseline;"></i>Balance Scale</b></h5>
+            <div class="card-body pl-4 pt-0">
+                I just want to share an exploration of the landing page online Accountancy Services. my idea is to make a more simple and clean style. </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="card border-0 bg-transparent">
+            <h5 class=""><b><i class="fas fa-chart-line	 pr-2 " style="font-size:22px;color:#ffae00; vertical-align:baseline;"></i>Balance Scale</b></h5>
+            <div class="card-body pl-4 pt-0">
+                I just want to share an exploration of the landing page online Accountancy Services. my idea is to make a more simple and clean style. </div>
+        </div>
+        <div class="card border-0 bg-transparent">
+            <h5 class=""><b><i class="fas fa-hand-holding-usd  pr-2" style="font-size:22px;color:#ffae00; vertical-align:baseline;"></i>Balance Scale</b></h5>
+            <div class="card-body pl-4 pt-0">
+                I just want to share an exploration of the landing page online Accountancy Services. my idea is to make a more simple and clean style. </div>
+        </div>
     </div>
 </div>
 

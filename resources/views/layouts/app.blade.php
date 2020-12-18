@@ -177,6 +177,29 @@
     html {
         scroll-behavior: smooth;
     }
+.bg-success{
+    background-color: #FFCCCB!important;
+
+}
+
+    .tbgrid {
+        display: grid;
+        grid-gap: 10px;
+        margin-left: 8%;
+        margin-right: 8%;
+        /* justify-content: center; */
+        width: auto;
+
+    }
+    .colorvalue{
+        background-color:#EAECEE;
+        color: black;
+    }
+
+    .auto-tbfill {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        
+    }
 
     .h1gradient {
         color: #111;
@@ -258,11 +281,32 @@
         border-radius: 160px 160px 0px 160px;
 
     }
+
     .borderradius2 {
         /* border-radius: 50%; */
         /* margin: -20px -20px 20px -20px; */
         border-radius: 0px 160px 160px 160px;
 
+    }
+
+    .btnsend,
+    .btnsend:hover,
+    .btnsend:active,
+    .btnsend:visited {
+        outline: none !important;
+        /* background-color: rgb(208, 192, 74); */
+        background-color: #236E96;
+        color: whitesmoke;
+    }
+
+    .btncontact,
+    .btncontact:hover,
+    .btncontact:active,
+    .btncontact:visited {
+        outline: none !important;
+        /* background-color: rgb(208, 192, 74); */
+        background-color: #236E96;
+        color: whitesmoke;
     }
 </style>
 
@@ -287,7 +331,7 @@
                         </li>
                     </ul>
                     <span class="navbar-text">
-                        <a class="btn btn-info text-light" href="/contact" role="button">Contact Us</a>
+                        <a class="btn text-light btncontact" href="/contact" role="button">Contact Us</a>
                     </span>
                 </div>
             </div>

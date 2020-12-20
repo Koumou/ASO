@@ -427,11 +427,11 @@
                     <h5 class="text-uppercase">Links</h5>
 
                     <ul class="list-unstyled mb-0">
-                        <li>
-                            <a href="#!" class="text-dark">About Us</a>
+                    <li class="{{Request::is ('contact') ? 'active' : ''}}">
+                            <a href="/about" class="text-dark">About Us</a>
                         </li>
-                        <li>
-                            <a href="#!" class="text-dark">Contact Us</a>
+                        <li class="{{Request::is ('contact') ? 'active' : ''}}">
+                            <a href="/contact" class="text-dark">Contact Us</a>
                         </li>
                         <li>
                             <a href="#!" class="text-dark">T&Cs</a>

@@ -209,7 +209,7 @@
         letter-spacing: -1px;
         line-height: 1;
         text-align: center;
-        font-size: 172px;
+        font-size: 160px;
         background: linear-gradient(to right, #30CFD0 0%, #330867 80%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -314,7 +314,7 @@
     <div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
-                <a class="navbar-brand">ASO</a>
+                <a class="navbar-brand" style="font-size:xx-large;"><b>A</b>SO</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -323,9 +323,9 @@
                         <li class="nav-item ">
                             <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="/testiminial">Testimonials</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item mr-4 active">
                             <a class="nav-link" href="/about">About Us</a>
                         </li>

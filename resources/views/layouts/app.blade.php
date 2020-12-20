@@ -308,6 +308,13 @@
         background-color: #236E96;
         color: whitesmoke;
     }
+
+    .btncontact:visited{
+   outline: none !important;
+        /* background-color: rgb(208, 192, 74); */
+        background-color: red;
+        color: whitesmoke;
+    }
 </style>
 
 <body>
@@ -320,19 +327,20 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item ">
+                        <li class="nav-item {{Request::is ('home') ? 'active' : ''}}">
                             <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <!-- <li class="nav-item">
                             <a class="nav-link" href="/testiminial">Testimonials</a>
                         </li> -->
-                        <li class="nav-item mr-4 active">
+                        <li class="nav-item {{Request::is ('about') ? 'active' : ''}}">
                             <a class="nav-link" href="/about">About Us</a>
                         </li>
+                        <li class="nav-item {{Request::is ('contact') ? 'active' : ''}}">
+                            <a class="nav-link" href="/contact">Contact Us</a>
+                        </li>
                     </ul>
-                    <span class="navbar-text">
-                        <a class="btn text-light btncontact" href="/contact" role="button">Contact Us</a>
-                    </span>
+                
                 </div>
             </div>
         </nav>

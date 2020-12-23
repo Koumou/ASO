@@ -14,6 +14,7 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- Fonts -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
@@ -177,10 +178,11 @@
     html {
         scroll-behavior: smooth;
     }
-.bg-success{
-    background-color: #FFCCCB!important;
 
-}
+    .bg-success {
+        background-color: #FFCCCB !important;
+
+    }
 
     .tbgrid {
         display: grid;
@@ -191,14 +193,15 @@
         width: auto;
 
     }
-    .colorvalue{
-        background-color:#EAECEE;
+
+    .colorvalue {
+        background-color: #EAECEE;
         color: black;
     }
 
     .auto-tbfill {
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-        
+
     }
 
     .h1gradient {
@@ -309,8 +312,8 @@
         color: whitesmoke;
     }
 
-    .btncontact:visited{
-   outline: none !important;
+    .btncontact:visited {
+        outline: none !important;
         /* background-color: rgb(208, 192, 74); */
         background-color: red;
         color: whitesmoke;
@@ -340,7 +343,7 @@
                             <a class="nav-link" href="/contact">Contact Us</a>
                         </li>
                     </ul>
-                
+
                 </div>
             </div>
         </nav>
@@ -408,6 +411,8 @@
             @yield('content')
         </main>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 
     <footer class="bg-light text-center text-lg-start">
         <div class="container p-4">
@@ -427,7 +432,7 @@
                     <h5 class="text-uppercase">Links</h5>
 
                     <ul class="list-unstyled mb-0">
-                    <li class="{{Request::is ('contact') ? 'active' : ''}}">
+                        <li class="{{Request::is ('contact') ? 'active' : ''}}">
                             <a href="/about" class="text-dark">About Us</a>
                         </li>
                         <li class="{{Request::is ('contact') ? 'active' : ''}}">
